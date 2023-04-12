@@ -20,9 +20,14 @@ plot(alessio, sherika, cex=2, col="purple", pch=19, xlab="Shark bites", ylab="Go
 # Correlazione
 cor(alessio, sherika)
 
+# --------------
+# Esercizio 2
 
+eta <- c(22, 24, 22, 24, 23, 22, 32, 23, 26, 23, 28, 22, 41, 25)
+summary(eta)
 
-
+# Istogramma
+hist(eta)
 
 
 
